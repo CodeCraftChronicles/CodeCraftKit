@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Daniel Woagou",
+  "classifications": [ "Web", "API", "Blazor", "Library", "Vertical Slice" ],
+  "identity": "CodeCraftKit.CSharp",
+  "name": "CodeCraftKit",
+  "shortName": "cck",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "CodeCraftKit",
+  "preferNameDirectory": true,
+  "primaryOutputs": [
+    {
+      "path": "src/WebApi/WebApi.csproj"
+    },
+    {
+      "path": "src/BlazorApp/BlazorApp.csproj"
+    },
+    {
+      "path": "src/Shared/Shared.csproj"
+    }
+  ],
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            ".template.config/**/*",
+            "src/WebApi/bin/**",
+            "src/WebApi/obj/**",
+            "src/BlazorApp/bin/**",
+            "src/BlazorApp/obj/**",
+            "src/Shared/bin/**",
+            "src/Shared/obj/**"
+          ]
+        }
+      ]
+    }
+  ],
+  "symbols": {
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "false",
+      "description": "
