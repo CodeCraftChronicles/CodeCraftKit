@@ -18,8 +18,8 @@ public interface IAuditableEntity : IEntity
 
     DateTime? LastModifiedOn { get; set; }
 
-    string DeletedBy { get; set; }
-    DateTime DeletedOn { get; set; }
+    string? DeletedBy { get; set; }
+    DateTime? DeletedOn { get; set; }
 }
 public interface IAuditableEntity<TId> : IAuditableEntity, IEntity<TId>
 {
