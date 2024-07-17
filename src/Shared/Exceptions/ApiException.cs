@@ -4,9 +4,8 @@ using System.Globalization;
 
 namespace Shared.Exceptions;
 
-public class ApiException : Exception
-{
-    public ApiResponse.Error Error { get; set; }
+public class ApiException : Exception{
+   
     public ApiException() : base()
     {
     }
