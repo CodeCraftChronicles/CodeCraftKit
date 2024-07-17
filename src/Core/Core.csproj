@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Database\" />
+    <Folder Include="Database\Contexts\" />
     <Folder Include="Domain\Entities\" />
-    <Folder Include="Domain\Contracts\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
