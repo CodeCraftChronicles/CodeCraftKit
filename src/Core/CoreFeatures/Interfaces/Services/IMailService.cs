@@ -1,4 +1,4 @@
-﻿using Core.CoreFeatures.Security.Requests.Mail;
+﻿using Shared.DTO.Requests.Mail;
 
 namespace Core.CoreFeatures.Interfaces.Services;
 

@@ -2,14 +2,13 @@
 using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
 
 using Core.CoreFeatures.Interfaces.Services.Identity;
-using Core.CoreFeatures.Security.Requests.Identity;
 using Core.CoreFeatures.Security.Responses.Identity;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-
+using Shared.DTO.Requests.Identity;
 using Shared.Wrappers;
 
 using System;

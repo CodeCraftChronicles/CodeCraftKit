@@ -7,8 +7,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 
 using Microsoft.Extensions.DependencyInjection;
-
-using WebApi.Configurations;
+using WebApi.Core.Configurations;
 
 namespace BlazorHero.CleanArchitecture.Server.Extensions
 {

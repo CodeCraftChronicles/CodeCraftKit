@@ -9,12 +9,11 @@ using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
 
 using Core.CoreFeatures.Interfaces.Services;
 using Core.CoreFeatures.Interfaces.Services.Identity;
-using Core.CoreFeatures.Security.Requests.Identity;
 using Core.CoreFeatures.Security.Responses.Identity;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
-
+using Shared.DTO.Requests.Identity;
 using Shared.Wrappers;
 
 namespace Core.CoreFeatures.Security.Services.Identity

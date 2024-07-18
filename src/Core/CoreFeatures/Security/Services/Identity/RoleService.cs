@@ -10,11 +10,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Shared.Wrappers;
 using Core.CoreFeatures.Interfaces.Services.Identity;
-using Core.CoreFeatures.Security.Requests.Identity;
 using Core.CoreFeatures.Security.Responses.Identity;
 using Core.CoreFeatures.Interfaces.Services;
 using Shared.Constants.Permission;
 using Shared.Constants.Role;
+using Shared.DTO.Requests.Identity;
 
 namespace Core.CoreFeatures.Security.Services.Identity
 {

@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
 using System.Linq;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
 using BlazorHero.CleanArchitecture.Server.Hubs;
 using BlazorHero.CleanArchitecture.Server.Middlewares;
 using Microsoft.AspNetCore.Builder;
@@ -9,9 +8,10 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
-using WebApi.Configurations;
 using Shared.Constants.Application;
 using Shared.Constants.Localization;
+using WebApi.Core.Configurations;
+using WebApi.Core.Interfaces.Services;
 
 namespace BlazorHero.CleanArchitecture.Server.Extensions
 {

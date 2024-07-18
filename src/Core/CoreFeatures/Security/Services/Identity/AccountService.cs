@@ -1,11 +1,10 @@
 ﻿using Core.CoreFeatures.Interfaces.Services;
 using Core.CoreFeatures.Interfaces.Services.Account;
 using Core.CoreFeatures.Security.Models.Identity;
-using Core.CoreFeatures.Security.Requests.Identity;
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using Shared.DTO.Requests.Identity;
 using Shared.Wrappers;
 
 namespace Core.CoreFeatures.Security.Services.Identity

@@ -1,4 +1,4 @@
-﻿using Core.CoreFeatures.Security.Requests;
+﻿using Shared.DTO.Requests;
 
 namespace Core.CoreFeatures.Interfaces.Services;
 
